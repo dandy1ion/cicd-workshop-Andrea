@@ -5,7 +5,7 @@ class FizzBuzz
     {
         $fizzBuzzArray = [];
         for ($i = $fromNum; $i <= $toNum; $i++) {
-            $fizzBuzzsString = "$i";
+            $fizzBuzzString = "$i";
 
             if ($i % 3 == 0 || $i % 5 == 0) {
                 $fizzBuzzString .= " - ";
